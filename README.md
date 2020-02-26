@@ -7,7 +7,8 @@ net_discover is intented ONLY for EDUCATIONAL PURPOSES.
 ## Requirements
 Python
 
-## Install
+## Installation
+Instructions on how to install *net_discover*
 ```bash
 sudo git clone https://github.com/LeuvaApurv/net_discover.git
 cd net_discover
