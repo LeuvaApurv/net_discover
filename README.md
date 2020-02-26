@@ -8,17 +8,16 @@ net_discover is intented ONLY for EDUCATIONAL PURPOSES.
 Python
 
 ## Install
-```
-# git clone https://github.com/LeuvaApurv/net_discover
-# cd net_discover
+```bash
+sudo git clone https://github.com/LeuvaApurv/net_discover.git
+cd net_discover
+sudo python net_discover.py -t [Target_ip]
+
 ```
 
-## Usage
-Run the python script and see how many connected host and thier IP and MAC Address in your wifi network.
-.
 ## Help
-```
-# python net_discover.py -h
+```bash
+sudo python net_discover.py -h
 usage: net_discover.py [-h] [-t TARGET]
 
 optional arguments:
@@ -29,8 +28,8 @@ optional arguments:
 ```
 
 ## Sample output:
-```
-# python net_discover.py -t 10.0.2.1/24
+```bash
+sudo python net_discover.py -t 10.0.2.1/24
 IP Address		MAC Address
 -------------------------------------------------
 10.0.2.2		52:54:00:12:35:02
