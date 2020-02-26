@@ -18,6 +18,7 @@ sudo python net_discover.py -t [Target_ip]
 ## Help
 ```bash
 sudo python net_discover.py -h
+
 usage: net_discover.py [-h] [-t TARGET]
 
 optional arguments:
@@ -30,6 +31,7 @@ optional arguments:
 ## Sample output:
 ```bash
 sudo python net_discover.py -t 10.0.2.1/24
+
 IP Address		MAC Address
 -------------------------------------------------
 10.0.2.2		52:54:00:12:35:02
